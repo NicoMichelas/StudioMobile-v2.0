@@ -1,7 +1,9 @@
+
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("com.android.application") version "8.9.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.20" apply false
 }
+
 android {
     namespace = "org.studiomobile.v2"
     compileSdk = 35
